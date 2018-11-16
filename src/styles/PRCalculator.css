@@ -1,0 +1,9 @@
+.PRcalculator{
+    text-align: center;
+}
+
+.PRcalculator label{
+    padding: 16px;
+    display: block;
+}
+

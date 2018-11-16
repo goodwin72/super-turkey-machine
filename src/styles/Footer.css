@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+}
+
+footer .col{
+    flex: 1;
+    padding: 24px;
+    text-align: center;
+}
+
+footer .col:first-of-type{
+    text-align: left;
+}
+
+footer .col:last-of-type{
+    text-align: right;
+}
+

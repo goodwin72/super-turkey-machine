@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CSVReader from 'react-csv-reader';
-import './styles/PRCalculator.css';
+import '../styles/PRCalculator.css';
 import Modal from './Modal'
 
 const WEEKLY_PREFIX = "weekly";

@@ -19,6 +19,9 @@
     "react-static": "^5.9.12"
   },
   "devDependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "eslint-config-react-tools": "1.x.x",
     "serve": "^6.1.0"
   }

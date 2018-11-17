@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/Modal.css';
+import '../styles/Modal.css';
 
 const Modal = ({data, onClose}) => {
   const modalContent = data.map((value, index) => {

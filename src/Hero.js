@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/Hero.css';
+import '../styles/Hero.css';
 
 class Hero extends Component {
   render() {
@@ -8,6 +8,7 @@ class Hero extends Component {
         <header>
           <h1>{this.props.header}</h1>
           <p>{this.props.description}</p>
+          {this.props.children}
         </header>
       </div>
     );

@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import '../styles/App.css';
 import Hero from './Hero'
 import PRCalculator from './PRCalculator'
 import Footer from './Footer'
 
 class App extends Component {
   render() {
+    //const a = [1,3,5];
+    //console.log(...a);
     return (
       <div className="App">
         <Hero 
           header="Super Turkey Machine" 
           description="Power rankings calculator for Smash Bros at WSU"
-        />
-        <PRCalculator/>
+        >
+          <PRCalculator/>
+        </Hero>
+        
         <section id="about" className="note">
           <div className="container">
             <h2>How is the PR calculated?</h2>

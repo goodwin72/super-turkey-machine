@@ -2,15 +2,15 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "ec28467cffecb89eaf1d",
-  "time": 4351,
+  "hash": "a0950a223e8e5bb0bf49",
+  "time": 4380,
   "publicPath": ".//",
   "assetsByChunkName": {
     "main": [
-      "main.151c709b.js",
-      "styles.ec28467c.css",
-      "main.151c709b.js.map",
-      "styles.ec28467c.css.map"
+      "main.be0611df.js",
+      "styles.a0950a22.css",
+      "main.be0611df.js.map",
+      "styles.a0950a22.css.map"
     ],
     "bootstrap": [
       "bootstrap.f90f6c90.js",
@@ -47,8 +47,8 @@
       "emitted": true
     },
     {
-      "name": "main.151c709b.js",
-      "size": 215698,
+      "name": "main.be0611df.js",
+      "size": 215841,
       "chunks": [
         0
       ],
@@ -69,7 +69,7 @@
       "emitted": true
     },
     {
-      "name": "styles.ec28467c.css",
+      "name": "styles.a0950a22.css",
       "size": 3404,
       "chunks": [
         0
@@ -80,8 +80,8 @@
       "emitted": true
     },
     {
-      "name": "main.151c709b.js.map",
-      "size": 737016,
+      "name": "main.be0611df.js.map",
+      "size": 737634,
       "chunks": [
         0
       ],
@@ -91,7 +91,7 @@
       "emitted": true
     },
     {
-      "name": "styles.ec28467c.css.map",
+      "name": "styles.a0950a22.css.map",
       "size": 96,
       "chunks": [
         0
@@ -123,10 +123,10 @@
       "assets": [
         "bootstrap.f90f6c90.js",
         "bootstrap.f90f6c90.js.map",
-        "main.151c709b.js",
-        "styles.ec28467c.css",
-        "main.151c709b.js.map",
-        "styles.ec28467c.css.map"
+        "main.be0611df.js",
+        "styles.a0950a22.css",
+        "main.be0611df.js.map",
+        "styles.a0950a22.css.map"
       ]
     }
   },
@@ -137,17 +137,17 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 240111,
+      "size": 240400,
       "names": [
         "main"
       ],
       "files": [
-        "main.151c709b.js",
-        "styles.ec28467c.css",
-        "main.151c709b.js.map",
-        "styles.ec28467c.css.map"
+        "main.be0611df.js",
+        "styles.a0950a22.css",
+        "main.be0611df.js.map",
+        "styles.a0950a22.css.map"
       ],
-      "hash": "151c709b6f4c506c10f0",
+      "hash": "be0611dfb0a92c93fc79",
       "parents": [
         1
       ],
@@ -609,7 +609,7 @@
           "name": "./src/App.js",
           "index": 9,
           "index2": 23,
-          "size": 13948,
+          "size": 14118,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -639,7 +639,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 1,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/App.css');\n\nvar _Hero = require('./Hero');\n\nvar _Hero2 = _interopRequireDefault(_Hero);\n\nvar _PRCalculator = require('./PRCalculator');\n\nvar _PRCalculator2 = _interopRequireDefault(_PRCalculator);\n\nvar _Footer = require('./Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'App' },\n        _react2.default.createElement(\n          _Hero2.default,\n          {\n            header: 'Super Turkey Machine',\n            description: 'Power rankings calculator for Smash Bros at WSU'\n          },\n          _react2.default.createElement(_PRCalculator2.default, null)\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'formatting', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How should my .CSV file be formatted?'\n                )\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the first row, starting from the second column, list the names of all the players who placed 13th or higher at at least one event (monthly or weekly).'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the following rows, type the name of the event in the first cell, and then fill in all of the player\\'s placings in their respective columns.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'If a player didn\\'t attend that tournament, then leave their cell blank.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                  'strong',\n                  null,\n                  'IMPORTANT: All weekly events must start with \\'weekly\\'!'\n                ),\n                ' This is case-insensitive. If your results look strange, this may be why!'\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image csv-image' })\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'about', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How is the PR calculated?'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Short answer: When you place high at tournaments, you earn a PR score.'\n                ),\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Your final PR score is the average of your tournament PR scores, weighted heavily toward your results at monthlies.'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Long answer: The PR is calculated using the following algorithm.'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'At every event where you place 13th or higher, you earn PR points.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'You earn the following number of points per placement:'\n                    ),\n                    _react2.default.createElement(\n                      'ul',\n                      null,\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '1st Place - 1.0'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '2nd Place - 0.8'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '3rd Place - 0.7'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '4th Place - 0.5'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '5th Place - 0.4'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '7th Place - 0.3'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '9th Place - 0.2'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '13th Place - 0.1'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is an intentional point boost between the winner and the runner-up, and the top 3 and the rest - this is to incentivize and reward high tournament placings.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies only count toward your score if you attend ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        '2 or more'\n                      ),\n                      ' of them.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Monthlies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 75%'\n                      ),\n                      ' (or 100% if you don\\'t attend 2 weeklies).'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 25%'\n                      ),\n                      '.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is a penalty for missing monthlies: Your score for every monthly that you miss is the average of your other monthly scores, minus 0.1.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If you miss more than 1 monthly, this penalty ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'stacks'\n                      ),\n                      ': the average calculated for your second missed monthly\\'s score includes the previously calculated score for your first missed monthly (and so on).'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is no penalty for missing weeklies - only the weeklies you attend affect your score.'\n                    )\n                  )\n                ),\n                _react2.default.createElement(\n                  'h4',\n                  null,\n                  'Special cases'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If two players tie or have scores within 0.02 of each other, they will have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'PR battle'\n                      ),\n                      '.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'PR battles are generally at least a best-of-five, if not longer - this can depend on a case-by-case basis.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'In exceptional cases, the TOs reserve the right to override the alogirthm if it would give a ranking that is highly inaccurate to a player\\'s skill and/or level of success during the semester.',\n                      _react2.default.createElement(\n                        'em',\n                        null,\n                        'This should always be a last resort!'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Real-life example: One semester, our top Smash 4 player almost exclusively attended monthlies where several very good out-of-region players also competed. This meant that, on average, his scores were considerably lower than our second-best player, but in reality, his skill level was considerably higher than everyone else\\'s. For this semester, the algorithm was overriden, and he was given 1st place by default.'\n                    )\n                  )\n                )\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image pr-image' })\n          )\n        ),\n        _react2.default.createElement(_Footer2.default, null)\n      );\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/App.css');\n\nvar _Hero = require('./Hero');\n\nvar _Hero2 = _interopRequireDefault(_Hero);\n\nvar _PRCalculator = require('./PRCalculator');\n\nvar _PRCalculator2 = _interopRequireDefault(_PRCalculator);\n\nvar _Footer = require('./Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n  }\n\n  _createClass(App, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      document.title = \"Super Turkey Machine | PR Calculator for Smash Bros at WSU\";\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'App' },\n        _react2.default.createElement(\n          _Hero2.default,\n          {\n            header: 'Super Turkey Machine',\n            description: 'Power rankings calculator for Smash Bros at WSU'\n          },\n          _react2.default.createElement(_PRCalculator2.default, null)\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'formatting', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How should my .CSV file be formatted?'\n                )\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the first row, starting from the second column, list the names of all the players who placed 13th or higher at at least one event (monthly or weekly).'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the following rows, type the name of the event in the first cell, and then fill in all of the player\\'s placings in their respective columns.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'If a player didn\\'t attend that tournament, then leave their cell blank.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                  'strong',\n                  null,\n                  'IMPORTANT: All weekly events must start with \\'weekly\\'!'\n                ),\n                ' This is case-insensitive. If your results look strange, this may be why!'\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image csv-image' })\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'about', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How is the PR calculated?'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Short answer: When you place high at tournaments, you earn a PR score.'\n                ),\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Your final PR score is the average of your tournament PR scores, weighted heavily toward your results at monthlies.'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Long answer: The PR is calculated using the following algorithm.'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'At every event where you place 13th or higher, you earn PR points.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'You earn the following number of points per placement:'\n                    ),\n                    _react2.default.createElement(\n                      'ul',\n                      null,\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '1st Place - 1.0'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '2nd Place - 0.8'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '3rd Place - 0.7'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '4th Place - 0.5'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '5th Place - 0.4'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '7th Place - 0.3'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '9th Place - 0.2'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '13th Place - 0.1'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is an intentional point boost between the winner and the runner-up, and the top 3 and the rest - this is to incentivize and reward high tournament placings.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies only count toward your score if you attend ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        '2 or more'\n                      ),\n                      ' of them.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Monthlies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 75%'\n                      ),\n                      ' (or 100% if you don\\'t attend 2 weeklies).'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 25%'\n                      ),\n                      '.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is a penalty for missing monthlies: Your score for every monthly that you miss is the average of your other monthly scores, minus 0.1.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If you miss more than 1 monthly, this penalty ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'stacks'\n                      ),\n                      ': the average calculated for your second missed monthly\\'s score includes the previously calculated score for your first missed monthly (and so on).'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is no penalty for missing weeklies - only the weeklies you attend affect your score.'\n                    )\n                  )\n                ),\n                _react2.default.createElement(\n                  'h4',\n                  null,\n                  'Special cases'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If two players tie or have scores within 0.02 of each other, they will have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'PR battle'\n                      ),\n                      '.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'PR battles are generally at least a best-of-five, if not longer - this can depend on a case-by-case basis.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'In exceptional cases, the TOs reserve the right to override the alogirthm if it would give a ranking that is highly inaccurate to a player\\'s skill and/or level of success during the semester.',\n                      _react2.default.createElement(\n                        'em',\n                        null,\n                        'This should always be a last resort!'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Real-life example: One semester, our top Smash 4 player almost exclusively attended monthlies where several very good out-of-region players also competed. This meant that, on average, his scores were considerably lower than our second-best player, but in reality, his skill level was considerably higher than everyone else\\'s. For this semester, the algorithm was overriden, and he was given 1st place by default.'\n                    )\n                  )\n                )\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image pr-image' })\n          )\n        ),\n        _react2.default.createElement(_Footer2.default, null)\n      );\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;"
         },
         {
           "id": 11,
@@ -989,7 +989,7 @@
           "name": "./src/Modal.js",
           "index": 20,
           "index2": 18,
-          "size": 1419,
+          "size": 1538,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1019,7 +1019,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/Modal.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Modal = function Modal(_ref) {\n  var data = _ref.data,\n      onClose = _ref.onClose;\n\n  var modalContent = data.map(function (value, index) {\n    return _react2.default.createElement(\n      'tr',\n      { key: index },\n      _react2.default.createElement(\n        'th',\n        { scope: 'row' },\n        index + 1\n      ),\n      _react2.default.createElement(\n        'td',\n        null,\n        value.name\n      ),\n      _react2.default.createElement(\n        'td',\n        null,\n        value.total\n      )\n    );\n  });\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'modal' },\n    _react2.default.createElement(\n      'div',\n      { className: 'modal__content' },\n      _react2.default.createElement(\n        'table',\n        null,\n        _react2.default.createElement(\n          'tbody',\n          null,\n          modalContent\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'modal__close', onClick: onClose },\n        _react2.default.createElement(\n          'span',\n          null,\n          'X'\n        )\n      )\n    )\n  );\n};\n\nexports.default = Modal;"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/Modal.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Modal = function Modal(_ref) {\n  var data = _ref.data,\n      onClose = _ref.onClose;\n\n\n  function convertToTableRows(arr) {\n    return arr.map(function (value, index) {\n      return _react2.default.createElement(\n        'tr',\n        { key: index },\n        _react2.default.createElement(\n          'th',\n          { scope: 'row' },\n          index + 1\n        ),\n        _react2.default.createElement(\n          'td',\n          null,\n          value.name\n        ),\n        _react2.default.createElement(\n          'td',\n          null,\n          value.total\n        )\n      );\n    });\n  }\n\n  var modalContent = convertToTableRows(data);\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'modal' },\n    _react2.default.createElement(\n      'div',\n      { className: 'modal__content' },\n      _react2.default.createElement(\n        'table',\n        null,\n        _react2.default.createElement(\n          'tbody',\n          null,\n          modalContent\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'modal__close', onClick: onClose },\n        _react2.default.createElement(\n          'span',\n          null,\n          'X'\n        )\n      )\n    )\n  );\n};\n\nexports.default = Modal;"
         },
         {
           "id": 21,
@@ -1666,7 +1666,7 @@
       "name": "./src/App.js",
       "index": 9,
       "index2": 23,
-      "size": 13948,
+      "size": 14118,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1696,7 +1696,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 1,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/App.css');\n\nvar _Hero = require('./Hero');\n\nvar _Hero2 = _interopRequireDefault(_Hero);\n\nvar _PRCalculator = require('./PRCalculator');\n\nvar _PRCalculator2 = _interopRequireDefault(_PRCalculator);\n\nvar _Footer = require('./Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'App' },\n        _react2.default.createElement(\n          _Hero2.default,\n          {\n            header: 'Super Turkey Machine',\n            description: 'Power rankings calculator for Smash Bros at WSU'\n          },\n          _react2.default.createElement(_PRCalculator2.default, null)\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'formatting', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How should my .CSV file be formatted?'\n                )\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the first row, starting from the second column, list the names of all the players who placed 13th or higher at at least one event (monthly or weekly).'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the following rows, type the name of the event in the first cell, and then fill in all of the player\\'s placings in their respective columns.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'If a player didn\\'t attend that tournament, then leave their cell blank.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                  'strong',\n                  null,\n                  'IMPORTANT: All weekly events must start with \\'weekly\\'!'\n                ),\n                ' This is case-insensitive. If your results look strange, this may be why!'\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image csv-image' })\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'about', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How is the PR calculated?'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Short answer: When you place high at tournaments, you earn a PR score.'\n                ),\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Your final PR score is the average of your tournament PR scores, weighted heavily toward your results at monthlies.'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Long answer: The PR is calculated using the following algorithm.'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'At every event where you place 13th or higher, you earn PR points.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'You earn the following number of points per placement:'\n                    ),\n                    _react2.default.createElement(\n                      'ul',\n                      null,\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '1st Place - 1.0'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '2nd Place - 0.8'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '3rd Place - 0.7'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '4th Place - 0.5'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '5th Place - 0.4'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '7th Place - 0.3'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '9th Place - 0.2'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '13th Place - 0.1'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is an intentional point boost between the winner and the runner-up, and the top 3 and the rest - this is to incentivize and reward high tournament placings.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies only count toward your score if you attend ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        '2 or more'\n                      ),\n                      ' of them.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Monthlies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 75%'\n                      ),\n                      ' (or 100% if you don\\'t attend 2 weeklies).'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 25%'\n                      ),\n                      '.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is a penalty for missing monthlies: Your score for every monthly that you miss is the average of your other monthly scores, minus 0.1.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If you miss more than 1 monthly, this penalty ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'stacks'\n                      ),\n                      ': the average calculated for your second missed monthly\\'s score includes the previously calculated score for your first missed monthly (and so on).'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is no penalty for missing weeklies - only the weeklies you attend affect your score.'\n                    )\n                  )\n                ),\n                _react2.default.createElement(\n                  'h4',\n                  null,\n                  'Special cases'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If two players tie or have scores within 0.02 of each other, they will have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'PR battle'\n                      ),\n                      '.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'PR battles are generally at least a best-of-five, if not longer - this can depend on a case-by-case basis.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'In exceptional cases, the TOs reserve the right to override the alogirthm if it would give a ranking that is highly inaccurate to a player\\'s skill and/or level of success during the semester.',\n                      _react2.default.createElement(\n                        'em',\n                        null,\n                        'This should always be a last resort!'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Real-life example: One semester, our top Smash 4 player almost exclusively attended monthlies where several very good out-of-region players also competed. This meant that, on average, his scores were considerably lower than our second-best player, but in reality, his skill level was considerably higher than everyone else\\'s. For this semester, the algorithm was overriden, and he was given 1st place by default.'\n                    )\n                  )\n                )\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image pr-image' })\n          )\n        ),\n        _react2.default.createElement(_Footer2.default, null)\n      );\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/App.css');\n\nvar _Hero = require('./Hero');\n\nvar _Hero2 = _interopRequireDefault(_Hero);\n\nvar _PRCalculator = require('./PRCalculator');\n\nvar _PRCalculator2 = _interopRequireDefault(_PRCalculator);\n\nvar _Footer = require('./Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n  }\n\n  _createClass(App, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      document.title = \"Super Turkey Machine | PR Calculator for Smash Bros at WSU\";\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'App' },\n        _react2.default.createElement(\n          _Hero2.default,\n          {\n            header: 'Super Turkey Machine',\n            description: 'Power rankings calculator for Smash Bros at WSU'\n          },\n          _react2.default.createElement(_PRCalculator2.default, null)\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'formatting', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How should my .CSV file be formatted?'\n                )\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the first row, starting from the second column, list the names of all the players who placed 13th or higher at at least one event (monthly or weekly).'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'On the following rows, type the name of the event in the first cell, and then fill in all of the player\\'s placings in their respective columns.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                'If a player didn\\'t attend that tournament, then leave their cell blank.'\n              ),\n              _react2.default.createElement(\n                'p',\n                null,\n                _react2.default.createElement(\n                  'strong',\n                  null,\n                  'IMPORTANT: All weekly events must start with \\'weekly\\'!'\n                ),\n                ' This is case-insensitive. If your results look strange, this may be why!'\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image csv-image' })\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          { id: 'about', className: 'note' },\n          _react2.default.createElement(\n            'div',\n            { className: 'container' },\n            _react2.default.createElement(\n              'div',\n              { className: 'note__text' },\n              _react2.default.createElement(\n                'header',\n                null,\n                _react2.default.createElement(\n                  'h2',\n                  null,\n                  'How is the PR calculated?'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Short answer: When you place high at tournaments, you earn a PR score.'\n                ),\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Your final PR score is the average of your tournament PR scores, weighted heavily toward your results at monthlies.'\n                )\n              ),\n              _react2.default.createElement(\n                'section',\n                null,\n                _react2.default.createElement(\n                  'h3',\n                  null,\n                  'Long answer: The PR is calculated using the following algorithm.'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'At every event where you place 13th or higher, you earn PR points.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'You earn the following number of points per placement:'\n                    ),\n                    _react2.default.createElement(\n                      'ul',\n                      null,\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '1st Place - 1.0'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '2nd Place - 0.8'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '3rd Place - 0.7'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '4th Place - 0.5'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '5th Place - 0.4'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '7th Place - 0.3'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '9th Place - 0.2'\n                      ),\n                      _react2.default.createElement(\n                        'li',\n                        null,\n                        '13th Place - 0.1'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is an intentional point boost between the winner and the runner-up, and the top 3 and the rest - this is to incentivize and reward high tournament placings.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies only count toward your score if you attend ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        '2 or more'\n                      ),\n                      ' of them.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Monthlies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 75%'\n                      ),\n                      ' (or 100% if you don\\'t attend 2 weeklies).'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Weeklies have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'weighting of 25%'\n                      ),\n                      '.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is a penalty for missing monthlies: Your score for every monthly that you miss is the average of your other monthly scores, minus 0.1.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If you miss more than 1 monthly, this penalty ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'stacks'\n                      ),\n                      ': the average calculated for your second missed monthly\\'s score includes the previously calculated score for your first missed monthly (and so on).'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'There is no penalty for missing weeklies - only the weeklies you attend affect your score.'\n                    )\n                  )\n                ),\n                _react2.default.createElement(\n                  'h4',\n                  null,\n                  'Special cases'\n                ),\n                _react2.default.createElement(\n                  'ul',\n                  null,\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'If two players tie or have scores within 0.02 of each other, they will have a ',\n                      _react2.default.createElement(\n                        'strong',\n                        null,\n                        'PR battle'\n                      ),\n                      '.'\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'PR battles are generally at least a best-of-five, if not longer - this can depend on a case-by-case basis.'\n                    )\n                  ),\n                  _react2.default.createElement(\n                    'li',\n                    null,\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'In exceptional cases, the TOs reserve the right to override the alogirthm if it would give a ranking that is highly inaccurate to a player\\'s skill and/or level of success during the semester.',\n                      _react2.default.createElement(\n                        'em',\n                        null,\n                        'This should always be a last resort!'\n                      )\n                    ),\n                    _react2.default.createElement(\n                      'p',\n                      null,\n                      'Real-life example: One semester, our top Smash 4 player almost exclusively attended monthlies where several very good out-of-region players also competed. This meant that, on average, his scores were considerably lower than our second-best player, but in reality, his skill level was considerably higher than everyone else\\'s. For this semester, the algorithm was overriden, and he was given 1st place by default.'\n                    )\n                  )\n                )\n              )\n            ),\n            _react2.default.createElement('div', { className: 'note__image pr-image' })\n          )\n        ),\n        _react2.default.createElement(_Footer2.default, null)\n      );\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;"
     },
     {
       "id": 11,
@@ -2046,7 +2046,7 @@
       "name": "./src/Modal.js",
       "index": 20,
       "index2": 18,
-      "size": 1419,
+      "size": 1538,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2076,7 +2076,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/Modal.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Modal = function Modal(_ref) {\n  var data = _ref.data,\n      onClose = _ref.onClose;\n\n  var modalContent = data.map(function (value, index) {\n    return _react2.default.createElement(\n      'tr',\n      { key: index },\n      _react2.default.createElement(\n        'th',\n        { scope: 'row' },\n        index + 1\n      ),\n      _react2.default.createElement(\n        'td',\n        null,\n        value.name\n      ),\n      _react2.default.createElement(\n        'td',\n        null,\n        value.total\n      )\n    );\n  });\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'modal' },\n    _react2.default.createElement(\n      'div',\n      { className: 'modal__content' },\n      _react2.default.createElement(\n        'table',\n        null,\n        _react2.default.createElement(\n          'tbody',\n          null,\n          modalContent\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'modal__close', onClick: onClose },\n        _react2.default.createElement(\n          'span',\n          null,\n          'X'\n        )\n      )\n    )\n  );\n};\n\nexports.default = Modal;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nrequire('../styles/Modal.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Modal = function Modal(_ref) {\n  var data = _ref.data,\n      onClose = _ref.onClose;\n\n\n  function convertToTableRows(arr) {\n    return arr.map(function (value, index) {\n      return _react2.default.createElement(\n        'tr',\n        { key: index },\n        _react2.default.createElement(\n          'th',\n          { scope: 'row' },\n          index + 1\n        ),\n        _react2.default.createElement(\n          'td',\n          null,\n          value.name\n        ),\n        _react2.default.createElement(\n          'td',\n          null,\n          value.total\n        )\n      );\n    });\n  }\n\n  var modalContent = convertToTableRows(data);\n\n  return _react2.default.createElement(\n    'div',\n    { className: 'modal' },\n    _react2.default.createElement(\n      'div',\n      { className: 'modal__content' },\n      _react2.default.createElement(\n        'table',\n        null,\n        _react2.default.createElement(\n          'tbody',\n          null,\n          modalContent\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'modal__close', onClick: onClose },\n        _react2.default.createElement(\n          'span',\n          null,\n          'X'\n        )\n      )\n    )\n  );\n};\n\nexports.default = Modal;"
     },
     {
       "id": 21,
@@ -2233,190 +2233,6 @@
   ],
   "filteredModules": 0,
   "children": [
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": ".//",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "undefined": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "extract-text-webpack-plugin-output-filename"
-          ]
-        }
-      },
-      "chunks": [
-        {
-          "id": 0,
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "extraAsync": false,
-          "size": 2737,
-          "names": [],
-          "files": [
-            "extract-text-webpack-plugin-output-filename"
-          ],
-          "hash": "7038cba27fa506491a84",
-          "parents": [],
-          "modules": [
-            {
-              "id": 0,
-              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-              "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-              "index": 0,
-              "index2": 1,
-              "size": 477,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": null,
-              "issuerId": null,
-              "issuerName": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|Oxygen);\", \"\"]);\n\n// module\nexports.push([module.id, \".vertical-table-center-wrapper{display:table-cell;vertical-align:middle}li{margin:1em 0}li p{margin:0}a:link,a:visited{color:#74fffa}a:active{color:#489f9c}.yellow-text{color:#f5d85b}\", \"\"]);\n\n// exports\n"
-            },
-            {
-              "id": 1,
-              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
-              "name": "./node_modules/css-loader/lib/css-base.js",
-              "index": 1,
-              "index2": 0,
-              "size": 2260,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-              "issuerId": 0,
-              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [
-                {
-                  "moduleId": 0,
-                  "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-                  "type": "cjs require",
-                  "userRequest": "../node_modules/css-loader/lib/css-base.js",
-                  "loc": "1:27-80"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 1,
-              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-            }
-          ],
-          "filteredModules": 0,
-          "origins": [
-            {
-              "moduleId": 0,
-              "module": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-              "loc": "",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": 0,
-          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-          "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-          "index": 0,
-          "index2": 1,
-          "size": 477,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|Oxygen);\", \"\"]);\n\n// module\nexports.push([module.id, \".vertical-table-center-wrapper{display:table-cell;vertical-align:middle}li{margin:1em 0}li p{margin:0}a:link,a:visited{color:#74fffa}a:active{color:#489f9c}.yellow-text{color:#f5d85b}\", \"\"]);\n\n// exports\n"
-        },
-        {
-          "id": 1,
-          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
-          "name": "./node_modules/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 2260,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-          "issuerId": 0,
-          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
-              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
-              "type": "cjs require",
-              "userRequest": "../node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-80"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1,
-          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-        }
-      ],
-      "filteredModules": 0,
-      "children": [],
-      "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css"
-    },
     {
       "errors": [],
       "warnings": [],
@@ -2625,21 +2441,21 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 2980,
+          "size": 2737,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "c58ea4fbba0a282e5439",
+          "hash": "7038cba27fa506491a84",
           "parents": [],
           "modules": [
             {
               "id": 0,
-              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
-              "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
+              "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
               "index": 0,
               "index2": 1,
-              "size": 720,
+              "size": 477,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2659,7 +2475,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"footer{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding:0 4%;font-family:IBM Plex,sans-serif;background-color:#981e32;color:#fff;background-image:-webkit-gradient(linear,left top,left bottom,from(#981e32),to(#7f1a2b));background-image:-webkit-linear-gradient(#981e32,#7f1a2b);background-image:-o-linear-gradient(#981e32,#7f1a2b);background-image:linear-gradient(#981e32,#7f1a2b)}footer .col{-ms-flex:1 1;flex:1 1;padding:24px;text-align:center}footer .col:first-of-type{text-align:left}footer .col:last-of-type{text-align:right}\", \"\"]);\n\n// exports\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|Oxygen);\", \"\"]);\n\n// module\nexports.push([module.id, \".vertical-table-center-wrapper{display:table-cell;vertical-align:middle}li{margin:1em 0}li p{margin:0}a:link,a:visited{color:#74fffa}a:active{color:#489f9c}.yellow-text{color:#f5d85b}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -2676,18 +2492,18 @@
                 0
               ],
               "assets": [],
-              "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+              "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
               "issuerId": 0,
-              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
-                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
-                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+                  "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
+                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
+                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
                   "type": "cjs require",
                   "userRequest": "../node_modules/css-loader/lib/css-base.js",
                   "loc": "1:27-80"
@@ -2704,9 +2520,9 @@
           "origins": [
             {
               "moduleId": 0,
-              "module": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
-              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "module": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
+              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
               "loc": "",
               "reasons": []
             }
@@ -2716,11 +2532,11 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
-          "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
+          "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
           "index": 0,
           "index2": 1,
-          "size": 720,
+          "size": 477,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2740,7 +2556,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"footer{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding:0 4%;font-family:IBM Plex,sans-serif;background-color:#981e32;color:#fff;background-image:-webkit-gradient(linear,left top,left bottom,from(#981e32),to(#7f1a2b));background-image:-webkit-linear-gradient(#981e32,#7f1a2b);background-image:-o-linear-gradient(#981e32,#7f1a2b);background-image:linear-gradient(#981e32,#7f1a2b)}footer .col{-ms-flex:1 1;flex:1 1;padding:24px;text-align:center}footer .col:first-of-type{text-align:left}footer .col:last-of-type{text-align:right}\", \"\"]);\n\n// exports\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|Oxygen);\", \"\"]);\n\n// module\nexports.push([module.id, \".vertical-table-center-wrapper{display:table-cell;vertical-align:middle}li{margin:1em 0}li p{margin:0}a:link,a:visited{color:#74fffa}a:active{color:#489f9c}.yellow-text{color:#f5d85b}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -2757,18 +2573,18 @@
             0
           ],
           "assets": [],
-          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
           "issuerId": 0,
-          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
-              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css",
+              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Common.css",
               "type": "cjs require",
               "userRequest": "../node_modules/css-loader/lib/css-base.js",
               "loc": "1:27-80"
@@ -2783,7 +2599,7 @@
       ],
       "filteredModules": 0,
       "children": [],
-      "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css"
+      "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css"
     },
     {
       "errors": [],
@@ -2968,6 +2784,190 @@
       "filteredModules": 0,
       "children": [],
       "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": ".//",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ]
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "extraAsync": false,
+          "size": 2980,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "c58ea4fbba0a282e5439",
+          "parents": [],
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+              "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "index": 0,
+              "index2": 1,
+              "size": 720,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"footer{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding:0 4%;font-family:IBM Plex,sans-serif;background-color:#981e32;color:#fff;background-image:-webkit-gradient(linear,left top,left bottom,from(#981e32),to(#7f1a2b));background-image:-webkit-linear-gradient(#981e32,#7f1a2b);background-image:-o-linear-gradient(#981e32,#7f1a2b);background-image:linear-gradient(#981e32,#7f1a2b)}footer .col{-ms-flex:1 1;flex:1 1;padding:24px;text-align:center}footer .col:first-of-type{text-align:left}footer .col:last-of-type{text-align:right}\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
+              "name": "./node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+                  "type": "cjs require",
+                  "userRequest": "../node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-80"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "moduleId": 0,
+              "module": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "loc": "",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+          "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+          "index": 0,
+          "index2": 1,
+          "size": 720,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"footer{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding:0 4%;font-family:IBM Plex,sans-serif;background-color:#981e32;color:#fff;background-image:-webkit-gradient(linear,left top,left bottom,from(#981e32),to(#7f1a2b));background-image:-webkit-linear-gradient(#981e32,#7f1a2b);background-image:-o-linear-gradient(#981e32,#7f1a2b);background-image:linear-gradient(#981e32,#7f1a2b)}footer .col{-ms-flex:1 1;flex:1 1;padding:24px;text-align:center}footer .col:first-of-type{text-align:left}footer .col:last-of-type{text-align:right}\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
+          "name": "./node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css",
+              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Footer.css",
+              "type": "cjs require",
+              "userRequest": "../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-80"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\Footer.css"
     },
     {
       "errors": [],

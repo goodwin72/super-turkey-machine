@@ -5,6 +5,10 @@ import PRCalculator from './PRCalculator'
 import Footer from './Footer'
 
 class App extends Component {
+  componentDidMount(){
+    document.title = "Super Turkey Machine | PR Calculator for Smash Bros at WSU"
+  }
+  
   render() {
     return (
       <div className="App">

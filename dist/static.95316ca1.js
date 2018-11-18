@@ -307,6 +307,11 @@ var App = function (_Component) {
   }
 
   _createClass(App, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "Super Turkey Machine | PR Calculator for Smash Bros at WSU";
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -1048,27 +1053,32 @@ var Modal = function Modal(_ref) {
   var data = _ref.data,
       onClose = _ref.onClose;
 
-  var modalContent = data.map(function (value, index) {
-    return _react2.default.createElement(
-      'tr',
-      { key: index },
-      _react2.default.createElement(
-        'th',
-        { scope: 'row' },
-        index + 1
-      ),
-      _react2.default.createElement(
-        'td',
-        null,
-        value.name
-      ),
-      _react2.default.createElement(
-        'td',
-        null,
-        value.total
-      )
-    );
-  });
+
+  function convertToTableRows(arr) {
+    return arr.map(function (value, index) {
+      return _react2.default.createElement(
+        'tr',
+        { key: index },
+        _react2.default.createElement(
+          'th',
+          { scope: 'row' },
+          index + 1
+        ),
+        _react2.default.createElement(
+          'td',
+          null,
+          value.name
+        ),
+        _react2.default.createElement(
+          'td',
+          null,
+          value.total
+        )
+      );
+    });
+  }
+
+  var modalContent = convertToTableRows(data);
 
   return _react2.default.createElement(
     'div',
@@ -1224,4 +1234,4 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA9CAYAAADv
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.20f8b7c0.js.map
+//# sourceMappingURL=static.95316ca1.js.map

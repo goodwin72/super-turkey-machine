@@ -2,15 +2,20 @@ import React, { Component } from 'react';
 import '../styles/Modal.css';
 
 const Modal = ({data, onClose}) => {
-  const modalContent = data.map((value, index) => {
-    return (
-      <tr key={index}>
-        <th scope="row">{index + 1}</th>
-        <td>{value.name}</td>
-        <td>{value.total}</td>
-      </tr>
-    )
-  })
+  
+  function convertToTableRows(arr){
+    return arr.map((value, index) => {
+      return (       
+        <tr key={index}>
+          <th scope="row">{index + 1}</th>
+          <td>{value.name}</td>
+          <td>{value.total}</td>
+        </tr>
+      )
+    })
+  }
+
+  const modalContent = convertToTableRows(data);
   
   return (
     <div className="modal">

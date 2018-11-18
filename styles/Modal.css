@@ -8,16 +8,29 @@
     height: 100%;
     background-color: #00000080;
 }
+.modal table{
+    min-width: 25vw;
+}
+
+.modal td{
+    padding: 2px;
+}
 
 .modal__content{
     display: block;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 32px;
+
     font-size: 18px;
+    padding: 32px;
+    max-width: 90%;
+    max-height: 650px;
+    max-height: 80vh;
     background-color: #ffffff;
+
+    overflow-y: scroll;
+    transform: translate(-50%, -50%);
 }
 
 .modal__close{

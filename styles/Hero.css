@@ -3,22 +3,25 @@
     src: url("../assets/fonts/LemonMilk.otf");
 }
 
-
 .hero{
     background-image: url("../assets/img/hero-background.jpg");
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 450px;
+    height: 750px;
+    width: 100%;
+    display: table;
+}
+
+.hero-wrapper{
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden; /*Prevent h1 padding from extending past top of div*/
 }
 
 .hero header{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden; /*Prevent h1 padding from extending past top of div*/
+    margin-bottom: 84px;
 }
 
 .hero header h1{
@@ -33,4 +36,14 @@
     font-family: LemonMilk;
     color: white;
     text-shadow: 0.0575em 0.0575em 0.025em rgba(0, 0, 0, 0.6);
+}
+
+.note__image{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pr-image{
+    background-image: url("../assets/img/pr-image.jpg");
 }

@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import CSVReader from 'react-csv-reader';
 import '../styles/PRCalculator.css';
+import '../styles/Common.css';
 import Modal from './Modal'
 
 const WEEKLY_PREFIX = "weekly";
+const MIN_WEEKLY_ATTENDANCE_TO_COUNT = 2;
+const WEIGHTING_MONTHLIES = 0.75;
+const WEIGHTING_WEEKLIES = 0.25;
 
 class PRCalculator extends Component {
   constructor(props){
@@ -58,7 +62,8 @@ class PRCalculator extends Component {
               result = 0;
             }
 
-            if(value.substring(0,6) === WEEKLY_PREFIX){
+            //console.log(String(name.substring(0,6)).toLowerCase());
+            if(String(name.substring(0,6)).toLowerCase() === WEEKLY_PREFIX){
               processedFileData[index - 1].weekliesResults[name] = result;
             }
             else{
@@ -70,7 +75,11 @@ class PRCalculator extends Component {
     })
 
     processedFileData = processedFileData.map((value) => {
-      value.total = this.calculateMonthlyTotal(value.monthliesResults);
+      //console.log(value.name);
+      //console.log(value.monthliesResults);
+      //console.log(value.weekliesResults);
+      //console.log("---------------------------");
+      value.total = this.calculateTotal(value.monthliesResults, value.weekliesResults);
       return value;
     })
 
@@ -85,23 +94,30 @@ class PRCalculator extends Component {
     });
   }
 
-  calculateMonthlyTotal(monthliesResults){
+  calculateTotal(monthliesResults, weekliesResults){
     //MonthlyCount is a running total of how many tournaments the player attended.
     //  This variable is called 'monthlyCount' and not 'monthliesAttended' because
     //  we need to use it as part of a counting up toward the total number of tournaments
     //  in the 'punishing for absences' step.
-    let total = 0, monthlyCount = 0;
-    console.log("----------------------------------------")
+    let total = 0, monthlyCount = 0, weekliesAttended = 0, monthlyTotal = 0, weekliesTotal = 0;
 
     Object.keys(monthliesResults).forEach((value) => {
       //If they attended, convert their placing to a score.
       if(monthliesResults[value]){
-        total += this.scoreToPoints(monthliesResults[value]);
+        monthlyTotal += this.scoreToPoints(monthliesResults[value]);
         monthlyCount++;
       }
     })
+    
+    Object.keys(weekliesResults).forEach((value) => {
+      //If they attended, convert their placing to a score.
+      if(weekliesResults[value]){
+        weekliesTotal += this.scoreToPoints(weekliesResults[value]);
+        weekliesAttended++;
+      }
+    })
 
-    //Port of Joey's algorithm for punishing absences.
+    //Port of Joey's algorithm for punishing monthly absences.
     //The player's score for a missed tournament is equal to an average of the scores for
     //  tournaments that they attended, minus a penalty.
     //  This penalty stacks in a way if a player misses more than one event. For missed
@@ -109,14 +125,25 @@ class PRCalculator extends Component {
     //  penalty-average scores in the mix.
     if(monthlyCount > 0){
       while(monthlyCount < Object.keys(monthliesResults).length){
-        let absenceScore = (total / monthlyCount) - .1;
-        total = total + absenceScore;
+        let absenceScore = (monthlyTotal / monthlyCount) - .1;
+        monthlyTotal = monthlyTotal + absenceScore;
         monthlyCount++;
       }
     }
 
+    console.log("Weeklies attended: ", weekliesAttended);
+
     //Average
-    total = total / Object.keys(monthliesResults).length;
+    if (weekliesAttended >= MIN_WEEKLY_ATTENDANCE_TO_COUNT && weekliesAttended > 0){
+      //console.log("Weeklies total: ", (weekliesTotal / weekliesAttended));
+      total = (monthlyTotal / Object.keys(monthliesResults).length) * WEIGHTING_MONTHLIES + 
+        (weekliesTotal / weekliesAttended) * WEIGHTING_WEEKLIES;
+    }
+    else{
+      total = monthlyTotal / Object.keys(monthliesResults).length;
+    }
+
+    total = +total.toFixed(10);
 
     return total;
   }
@@ -167,14 +194,16 @@ class PRCalculator extends Component {
 
     return (
       <section className="PRcalculator">
-        <label>
-          Select a <a href="#formatting">properly-formatted</a> CSV to calculate PR
-        </label>
-        <CSVReader
-          cssClass="react-csv-input"
-          onFileLoaded={this.processFile}
-        />
-        {modal}
+        <div className="vertical-table-center-wrapper">
+          <label>
+            Select a <a href="#formatting">properly-formatted</a> <span className="yellow-text">.CSV</span> file to calculate PR
+          </label>
+          <CSVReader
+            cssClass="react-csv-input"
+            onFileLoaded={this.processFile}
+          />
+          {modal}
+        </div>
       </section>
     )
   }

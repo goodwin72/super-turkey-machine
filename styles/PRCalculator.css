@@ -1,9 +1,39 @@
 .PRcalculator{
     text-align: center;
+    max-width: 1000px;
+    height: 190px;
+    width: 85%;
+    background-color: #00000096;
+    margin: 18px auto 0 auto;
+    
+    display: table;
+    border-radius: 16px;
+}
+
+.PRcalculator a:link{
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
 
 .PRcalculator label{
     padding: 16px;
     display: block;
+    font-family: LemonMilk;
+    color: white;
+    text-shadow: 0.0575em 0.0575em 0.025em rgba(0, 0, 0, 0.6);
+    
+    font-size: 2.25em;
+    line-height: 1.2;
+    margin: 0 auto;
+    max-width: 80%
 }
 
+.PRcalculator input{
+    color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .PRcalculator label{
+        font-size: 1.75em;
+    }
+}

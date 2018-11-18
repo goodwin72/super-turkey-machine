@@ -1,5 +1,11 @@
 footer{
     display: flex;
+    align-items: center;
+    padding: 0 4%;
+    font-family: "IBM Plex", sans-serif;
+    background-color: #981e32;
+    color: white;
+    background-image: linear-gradient(#981e32, #7f1a2b);
 }
 
 footer .col{

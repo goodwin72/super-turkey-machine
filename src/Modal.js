@@ -5,7 +5,7 @@ const Modal = ({data, onClose}) => {
   const modalContent = data.map((value, index) => {
     return (
       <tr key={index}>
-        <th>{index + 1}</th>
+        <th scope="row">{index + 1}</th>
         <td>{value.name}</td>
         <td>{value.total}</td>
       </tr>

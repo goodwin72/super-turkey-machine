@@ -1,9 +1,57 @@
 section{
-  padding: 24px;
+  font-family: 'IBM Plex', sans-serif;
 }
 
 section .container{
-  max-width: 95%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+
+.note:last-of-type .note__text{
+  border: none;
+}
+
+.note__text{
+  flex: 5;
+  padding: 4%;
+  border-bottom: 1px solid #808080;
+}
+
+.note h2{
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.note h3{
+  margin: .5em 0;
+}
+
+.note p{
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.note__text section, .note header{
+  margin-bottom: 2em;
+}
+
+.note__image{
+  flex: 3;
+  background-color: aliceblue;
+}
+
+.pr-image{
+  background-image: url("../assets/img/pr-image.jpg");
+}
+
+.csv-image{
+  background-image: url("../assets/img/csv-image.png");
+}
+
+
+@media only screen and (max-width: 700px){
+  .note__image{
+    display: none;
+  }
 }

@@ -2,15 +2,15 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "a0950a223e8e5bb0bf49",
-  "time": 4380,
+  "hash": "4d3a63a4913b12eda7af",
+  "time": 4307,
   "publicPath": ".//",
   "assetsByChunkName": {
     "main": [
       "main.be0611df.js",
-      "styles.a0950a22.css",
+      "styles.4d3a63a4.css",
       "main.be0611df.js.map",
-      "styles.a0950a22.css.map"
+      "styles.4d3a63a4.css.map"
     ],
     "bootstrap": [
       "bootstrap.f90f6c90.js",
@@ -69,8 +69,8 @@
       "emitted": true
     },
     {
-      "name": "styles.a0950a22.css",
-      "size": 3404,
+      "name": "styles.4d3a63a4.css",
+      "size": 3343,
       "chunks": [
         0
       ],
@@ -91,7 +91,7 @@
       "emitted": true
     },
     {
-      "name": "styles.a0950a22.css.map",
+      "name": "styles.4d3a63a4.css.map",
       "size": 96,
       "chunks": [
         0
@@ -124,9 +124,9 @@
         "bootstrap.f90f6c90.js",
         "bootstrap.f90f6c90.js.map",
         "main.be0611df.js",
-        "styles.a0950a22.css",
+        "styles.4d3a63a4.css",
         "main.be0611df.js.map",
-        "styles.a0950a22.css.map"
+        "styles.4d3a63a4.css.map"
       ]
     }
   },
@@ -143,9 +143,9 @@
       ],
       "files": [
         "main.be0611df.js",
-        "styles.a0950a22.css",
+        "styles.4d3a63a4.css",
         "main.be0611df.js.map",
-        "styles.a0950a22.css.map"
+        "styles.4d3a63a4.css.map"
       ],
       "hash": "be0611dfb0a92c93fc79",
       "parents": [
@@ -315,9 +315,9 @@
             0
           ],
           "assets": [],
-          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\src\\Hero.js",
-          "issuerId": 12,
-          "issuerName": "./src/Hero.js",
+          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\src\\PRCalculator.js",
+          "issuerId": 14,
+          "issuerName": "./src/PRCalculator.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1372,9 +1372,9 @@
         0
       ],
       "assets": [],
-      "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\src\\Hero.js",
-      "issuerId": 12,
-      "issuerName": "./src/Hero.js",
+      "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\src\\PRCalculator.js",
+      "issuerId": 14,
+      "issuerName": "./src/PRCalculator.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -2441,6 +2441,190 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
+          "size": 2945,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "221b6cf2ce09c831d31f",
+          "parents": [],
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+              "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+              "index": 0,
+              "index2": 1,
+              "size": 685,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".PRcalculator{text-align:center;max-width:1000px;height:190px;width:85%;background-color:#00000096;margin:18px auto 0;display:table;border-radius:16px}.PRcalculator a:link{text-decoration:none;border-bottom:1px solid #74fffa}.PRcalculator label{padding:16px;display:block;font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6);font-size:2.25em;line-height:1.2;margin:0 auto;max-width:80%}.PRcalculator input{color:#fff}@media only screen and (max-width:700px){.PRcalculator label{font-size:1.75em}}\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
+              "name": "./node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+                  "type": "cjs require",
+                  "userRequest": "../node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-80"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "moduleId": 0,
+              "module": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+              "loc": "",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+          "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+          "index": 0,
+          "index2": 1,
+          "size": 685,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".PRcalculator{text-align:center;max-width:1000px;height:190px;width:85%;background-color:#00000096;margin:18px auto 0;display:table;border-radius:16px}.PRcalculator a:link{text-decoration:none;border-bottom:1px solid #74fffa}.PRcalculator label{padding:16px;display:block;font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6);font-size:2.25em;line-height:1.2;margin:0 auto;max-width:80%}.PRcalculator input{color:#fff}@media only screen and (max-width:700px){.PRcalculator label{font-size:1.75em}}\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
+          "name": "./node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
+              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
+              "type": "cjs require",
+              "userRequest": "../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-80"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": ".//",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ]
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "extraAsync": false,
           "size": 2737,
           "names": [],
           "files": [
@@ -2600,190 +2784,6 @@
       "filteredModules": 0,
       "children": [],
       "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\Common.css"
-    },
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": ".//",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "undefined": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "extract-text-webpack-plugin-output-filename"
-          ]
-        }
-      },
-      "chunks": [
-        {
-          "id": 0,
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "extraAsync": false,
-          "size": 2942,
-          "names": [],
-          "files": [
-            "extract-text-webpack-plugin-output-filename"
-          ],
-          "hash": "8dff7510fdbca03b28e7",
-          "parents": [],
-          "modules": [
-            {
-              "id": 0,
-              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-              "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-              "index": 0,
-              "index2": 1,
-              "size": 682,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": null,
-              "issuerId": null,
-              "issuerName": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".PRcalculator{text-align:center;max-width:1000px;height:190px;width:85%;background-color:#00000096;margin:18px auto 0;display:table;border-radius:16px}.PRcalculator a:link{text-decoration:none;border-bottom:1px solid #000}.PRcalculator label{padding:16px;display:block;font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6);font-size:2.25em;line-height:1.2;margin:0 auto;max-width:80%}.PRcalculator input{color:#fff}@media only screen and (max-width:700px){.PRcalculator label{font-size:1.75em}}\", \"\"]);\n\n// exports\n"
-            },
-            {
-              "id": 1,
-              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
-              "name": "./node_modules/css-loader/lib/css-base.js",
-              "index": 1,
-              "index2": 0,
-              "size": 2260,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-              "issuerId": 0,
-              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [
-                {
-                  "moduleId": 0,
-                  "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-                  "type": "cjs require",
-                  "userRequest": "../node_modules/css-loader/lib/css-base.js",
-                  "loc": "1:27-80"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 1,
-              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-            }
-          ],
-          "filteredModules": 0,
-          "origins": [
-            {
-              "moduleId": 0,
-              "module": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-              "loc": "",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": 0,
-          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-          "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-          "index": 0,
-          "index2": 1,
-          "size": 682,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".PRcalculator{text-align:center;max-width:1000px;height:190px;width:85%;background-color:#00000096;margin:18px auto 0;display:table;border-radius:16px}.PRcalculator a:link{text-decoration:none;border-bottom:1px solid #000}.PRcalculator label{padding:16px;display:block;font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6);font-size:2.25em;line-height:1.2;margin:0 auto;max-width:80%}.PRcalculator input{color:#fff}@media only screen and (max-width:700px){.PRcalculator label{font-size:1.75em}}\", \"\"]);\n\n// exports\n"
-        },
-        {
-          "id": 1,
-          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\lib\\css-base.js",
-          "name": "./node_modules/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 2260,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-          "issuerId": 0,
-          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css",
-              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/PRCalculator.css",
-              "type": "cjs require",
-              "userRequest": "../node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-80"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1,
-          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-        }
-      ],
-      "filteredModules": 0,
-      "children": [],
-      "name": "extract-text-webpack-plugin ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\extract-text-webpack-plugin\\dist ../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!../../../My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!../../../My Documents\\Websites\\Super Turkey Machine\\styles\\PRCalculator.css"
     },
     {
       "errors": [],
@@ -3163,7 +3163,8 @@
           "name": "static/pr-image.aaa5d00d.jpg",
           "size": 125230,
           "chunks": [],
-          "chunkNames": []
+          "chunkNames": [],
+          "emitted": true
         },
         {
           "name": "static/csv-image.45b7d863.png",
@@ -3606,13 +3607,6 @@
           "chunks": [],
           "chunkNames": [],
           "emitted": true
-        },
-        {
-          "name": "static/pr-image.aaa5d00d.jpg",
-          "size": 125230,
-          "chunks": [],
-          "chunkNames": [],
-          "emitted": true
         }
       ],
       "filteredAssets": 0,
@@ -3633,12 +3627,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 3938,
+          "size": 3778,
           "names": [],
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "eadcea6543f8fd9d06c3",
+          "hash": "26dd02dbb3ef54a354e2",
           "parents": [],
           "modules": [
             {
@@ -3646,8 +3640,8 @@
               "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Hero.css",
               "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
               "index": 0,
-              "index2": 5,
-              "size": 1000,
+              "index2": 4,
+              "size": 914,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3667,7 +3661,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"@font-face{font-family:LemonMilk;src:url(\" + escape(require(\"../assets/fonts/LemonMilk.otf\")) + \")}.hero{background-image:url(\" + escape(require(\"../assets/img/hero-background.jpg\")) + \");background-position:50% 0;background-repeat:no-repeat;background-size:cover;text-align:center;height:750px;width:100%;display:table}.hero-wrapper{display:table-cell;vertical-align:middle;overflow:hidden}.hero header{margin-bottom:84px}.hero header h1{font-size:5em}.hero header h1,.hero header p{font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6)}.hero header p{font-size:1.5em}.note__image{background-position:0 0;background-repeat:no-repeat;background-size:cover}.pr-image{background-image:url(\" + escape(require(\"../assets/img/pr-image.jpg\")) + \")}\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"@font-face{font-family:LemonMilk;src:url(\" + escape(require(\"../assets/fonts/LemonMilk.otf\")) + \")}.hero{background-image:url(\" + escape(require(\"../assets/img/hero-background.jpg\")) + \");background-position:50% 0;background-repeat:no-repeat;background-size:cover;text-align:center;height:750px;width:100%;display:table}.hero-wrapper{display:table-cell;vertical-align:middle;overflow:hidden}.hero header{margin-bottom:84px}.hero header h1{font-size:5em}.hero header h1,.hero header p{font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6)}.hero header p{font-size:1.5em}.note__image{background-position:0 0;background-repeat:no-repeat;background-size:cover}\", \"\"]);\n\n// exports\n"
             },
             {
               "id": 1,
@@ -3824,46 +3818,6 @@
               "optimizationBailout": [],
               "depth": 1,
               "source": "module.exports = __webpack_public_path__ + \"static/hero-background.1d28a52e.jpg\";"
-            },
-            {
-              "id": 5,
-              "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\url-loader\\index.js??ref--0-oneOf-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\assets\\img\\pr-image.jpg",
-              "name": "./assets/img/pr-image.jpg",
-              "index": 5,
-              "index2": 4,
-              "size": 74,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [
-                "static/pr-image.aaa5d00d.jpg"
-              ],
-              "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Hero.css",
-              "issuerId": 0,
-              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [
-                {
-                  "moduleId": 0,
-                  "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Hero.css",
-                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
-                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
-                  "type": "cjs require",
-                  "userRequest": "../assets/img/pr-image.jpg",
-                  "loc": "7:753-790"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 1,
-              "source": "module.exports = __webpack_public_path__ + \"static/pr-image.aaa5d00d.jpg\";"
             }
           ],
           "filteredModules": 0,
@@ -3885,8 +3839,8 @@
           "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Hero.css",
           "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
           "index": 0,
-          "index2": 5,
-          "size": 1000,
+          "index2": 4,
+          "size": 914,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3906,7 +3860,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"@font-face{font-family:LemonMilk;src:url(\" + escape(require(\"../assets/fonts/LemonMilk.otf\")) + \")}.hero{background-image:url(\" + escape(require(\"../assets/img/hero-background.jpg\")) + \");background-position:50% 0;background-repeat:no-repeat;background-size:cover;text-align:center;height:750px;width:100%;display:table}.hero-wrapper{display:table-cell;vertical-align:middle;overflow:hidden}.hero header{margin-bottom:84px}.hero header h1{font-size:5em}.hero header h1,.hero header p{font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6)}.hero header p{font-size:1.5em}.note__image{background-position:0 0;background-repeat:no-repeat;background-size:cover}.pr-image{background-image:url(\" + escape(require(\"../assets/img/pr-image.jpg\")) + \")}\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"@font-face{font-family:LemonMilk;src:url(\" + escape(require(\"../assets/fonts/LemonMilk.otf\")) + \")}.hero{background-image:url(\" + escape(require(\"../assets/img/hero-background.jpg\")) + \");background-position:50% 0;background-repeat:no-repeat;background-size:cover;text-align:center;height:750px;width:100%;display:table}.hero-wrapper{display:table-cell;vertical-align:middle;overflow:hidden}.hero header{margin-bottom:84px}.hero header h1{font-size:5em}.hero header h1,.hero header p{font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6)}.hero header p{font-size:1.5em}.note__image{background-position:0 0;background-repeat:no-repeat;background-size:cover}\", \"\"]);\n\n// exports\n"
         },
         {
           "id": 1,
@@ -4063,46 +4017,6 @@
           "optimizationBailout": [],
           "depth": 1,
           "source": "module.exports = __webpack_public_path__ + \"static/hero-background.1d28a52e.jpg\";"
-        },
-        {
-          "id": 5,
-          "identifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\url-loader\\index.js??ref--0-oneOf-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\assets\\img\\pr-image.jpg",
-          "name": "./assets/img/pr-image.jpg",
-          "index": 5,
-          "index2": 4,
-          "size": 74,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "static/pr-image.aaa5d00d.jpg"
-          ],
-          "issuer": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Hero.css",
-          "issuerId": 0,
-          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\css-loader\\index.js??ref--0-oneOf-1-2!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\node_modules\\postcss-loader\\lib\\index.js??postcss!D:\\Users\\Jared\\My Documents\\Websites\\Super Turkey Machine\\styles\\Hero.css",
-              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./styles/Hero.css",
-              "type": "cjs require",
-              "userRequest": "../assets/img/pr-image.jpg",
-              "loc": "7:753-790"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1,
-          "source": "module.exports = __webpack_public_path__ + \"static/pr-image.aaa5d00d.jpg\";"
         }
       ],
       "filteredModules": 0,

@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = ".//";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -187,12 +187,6 @@ module.exports = function escape(url) {
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/pr-image.aaa5d00d.jpg";
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
 exports = module.exports = __webpack_require__(0)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i|Oxygen);", ""]);
@@ -204,7 +198,7 @@ exports.push([module.i, ".vertical-table-center-wrapper{display:table-cell;verti
 
 
 /***/ }),
-/* 5 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -218,13 +212,13 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(6);
+var _reactDom = __webpack_require__(5);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-__webpack_require__(7);
+__webpack_require__(6);
 
-var _App = __webpack_require__(8);
+var _App = __webpack_require__(7);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -239,13 +233,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 6 */
+/* 5 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 7 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(false);
@@ -259,7 +253,7 @@ exports.push([module.i, "body{margin:0;padding:0}", ""]);
 
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -275,7 +269,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(9);
+__webpack_require__(8);
 
 var _Hero = __webpack_require__(11);
 
@@ -613,7 +607,7 @@ var App = function (_Component) {
 exports.default = App;
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var escape = __webpack_require__(2);
@@ -622,10 +616,16 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "section{font-family:IBM Plex,sans-serif}section .container{margin-left:auto;margin-right:auto;display:-ms-flexbox;display:flex}.note:last-of-type .note__text{border:none}.note__text{-ms-flex:5 1;flex:5 1;padding:4%;border-bottom:1px solid gray}.note h2{font-size:2em;font-weight:100}.note h3{margin:.5em 0}.note p{line-height:1.4;font-size:18px}.note__text section,.note header{margin-bottom:2em}.note__image{-ms-flex:3 1;flex:3 1;background-color:#f0f8ff}.pr-image{background-image:url(" + escape(__webpack_require__(3)) + ")}.csv-image{background-image:url(" + escape(__webpack_require__(10)) + ")}@media only screen and (max-width:700px){.note__image{display:none}}", ""]);
+exports.push([module.i, "section{font-family:IBM Plex,sans-serif}section .container{margin-left:auto;margin-right:auto;display:-ms-flexbox;display:flex}.note:last-of-type .note__text{border:none}.note__text{-ms-flex:5 1;flex:5 1;padding:4%;border-bottom:1px solid gray}.note h2{font-size:2em;font-weight:100}.note h3{margin:.5em 0}.note p{line-height:1.4;font-size:18px}.note__text section,.note header{margin-bottom:2em}.note__image{-ms-flex:3 1;flex:3 1;background-color:#f0f8ff}.pr-image{background-image:url(" + escape(__webpack_require__(9)) + ")}.csv-image{background-image:url(" + escape(__webpack_require__(10)) + ")}@media only screen and (max-width:700px){.note__image{display:none}}", ""]);
 
 // exports
 
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/pr-image.aaa5d00d.jpg";
 
 /***/ }),
 /* 10 */
@@ -652,7 +652,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(12);
 
-__webpack_require__(4);
+__webpack_require__(3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -715,7 +715,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "@font-face{font-family:LemonMilk;src:url(" + escape(__webpack_require__(13)) + ")}.hero{background-image:url(" + escape(__webpack_require__(14)) + ");background-position:50% 0;background-repeat:no-repeat;background-size:cover;text-align:center;height:750px;width:100%;display:table}.hero-wrapper{display:table-cell;vertical-align:middle;overflow:hidden}.hero header{margin-bottom:84px}.hero header h1{font-size:5em}.hero header h1,.hero header p{font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6)}.hero header p{font-size:1.5em}.note__image{background-position:0 0;background-repeat:no-repeat;background-size:cover}.pr-image{background-image:url(" + escape(__webpack_require__(3)) + ")}", ""]);
+exports.push([module.i, "@font-face{font-family:LemonMilk;src:url(" + escape(__webpack_require__(13)) + ")}.hero{background-image:url(" + escape(__webpack_require__(14)) + ");background-position:50% 0;background-repeat:no-repeat;background-size:cover;text-align:center;height:750px;width:100%;display:table}.hero-wrapper{display:table-cell;vertical-align:middle;overflow:hidden}.hero header{margin-bottom:84px}.hero header h1{font-size:5em}.hero header h1,.hero header p{font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6)}.hero header p{font-size:1.5em}.note__image{background-position:0 0;background-repeat:no-repeat;background-size:cover}", ""]);
 
 // exports
 
@@ -755,7 +755,7 @@ var _reactCsvReader2 = _interopRequireDefault(_reactCsvReader);
 
 __webpack_require__(17);
 
-__webpack_require__(4);
+__webpack_require__(3);
 
 var _Modal = __webpack_require__(18);
 
@@ -1025,7 +1025,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".PRcalculator{text-align:center;max-width:1000px;height:190px;width:85%;background-color:#00000096;margin:18px auto 0;display:table;border-radius:16px}.PRcalculator a:link{text-decoration:none;border-bottom:1px solid #000}.PRcalculator label{padding:16px;display:block;font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6);font-size:2.25em;line-height:1.2;margin:0 auto;max-width:80%}.PRcalculator input{color:#fff}@media only screen and (max-width:700px){.PRcalculator label{font-size:1.75em}}", ""]);
+exports.push([module.i, ".PRcalculator{text-align:center;max-width:1000px;height:190px;width:85%;background-color:#00000096;margin:18px auto 0;display:table;border-radius:16px}.PRcalculator a:link{text-decoration:none;border-bottom:1px solid #74fffa}.PRcalculator label{padding:16px;display:block;font-family:LemonMilk;color:#fff;text-shadow:.0575em .0575em .025em rgba(0,0,0,.6);font-size:2.25em;line-height:1.2;margin:0 auto;max-width:80%}.PRcalculator input{color:#fff}@media only screen and (max-width:700px){.PRcalculator label{font-size:1.75em}}", ""]);
 
 // exports
 
@@ -1234,4 +1234,4 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA9CAYAAADv
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.95316ca1.js.map
+//# sourceMappingURL=static.97d15999.js.map
